@@ -1,0 +1,77 @@
+/*Main*/
+main{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    padding: 7% 0 0 0;    
+}
+
+.button{
+  background-color: rgb(52, 150, 137);
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 15px;
+  cursor: pointer;
+  border-radius: 4px;
+  padding: 10px 30px;
+}
+
+.container{
+margin: 50px;
+line-height: 100px;
+} 
+
+/*Pill Buttons*/
+.pill-container{
+  width: 100%;
+}
+
+.pill-button {
+    background-color: #f7f7f7;
+    border: none;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 25px;
+    &:hover {
+      background-color:rgb(214, 240, 255);
+    }
+
+    &:visited {
+      background-color:rgb(214, 240, 255);
+    }      
+}  
+ 
+.container-btn { 
+  padding: 50px;
+
+  & button{
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    padding: 20px 40px; 
+  }
+}
+  
+.center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+picture img{
+    width: 100%;
+}
+
+.fa{
+  font-size: 24px !important; 
+}

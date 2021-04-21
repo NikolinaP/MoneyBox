@@ -1,0 +1,178 @@
+@media only screen and (max-width: 1300px) {
+  .grid-container{
+    width: 100%;
+  }
+  // .feature-right{
+  //   float: right;
+  //   width:50%;
+  // }
+  .feature-one{
+    text-align: center;
+    width: 50%;
+    margin: auto;
+  }
+  .feature-two{
+  text-align: center;
+  width: 50%;
+  margin: auto;
+  }
+  .feature-three{
+    text-align: center;
+    width: 50%;
+    margin: auto;
+  }
+  .price-container {
+    width: 100%;
+    margin: auto;
+  }
+}
+
+@media only screen and (max-width: 980px) {
+  .grid-container {    
+    width: 100%;
+  }
+  .feature-one{
+    text-align: center;
+    width: 80%;
+    margin: auto;
+  }
+  .feature-two{
+  text-align: center;
+  width: 80%;
+  margin: auto;
+  }
+  .feature-three{
+    text-align: center;
+    width: 80%;
+    margin: auto;
+  }
+  .puzzle{
+    background-position: top;
+    padding-top: 20%;
+  }
+  .bricks{
+    background-image: url("../../images/feature-2.jpeg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: top;
+    background-size: 30%;
+    padding-top: 20%;
+  }
+  
+  .bricks-right{
+    background-image: url("../../images/feature-2.jpeg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: top;
+    background-size: 30%;
+    padding-top: 20%;
+  }
+  .feature{
+    grid-column: 1/span 3;
+    grid-row: 1/2;
+  }
+  
+  .item1{
+    grid-column: 1 /span 3;
+    grid-row: 2/3;  
+  }
+  .item2{
+    grid-column: 1 /span 3;
+    grid-row: 3/4;  
+  }
+  .item3{
+    grid-column: 1 /span 3;
+    grid-row: 4/5;  
+  }
+  .item4{
+    grid-column: 1 /span 3;
+    grid-row: 5/6;  
+  }    
+  .pill-button{
+    text-align: left;
+    display: inline-block;
+    width: 40%;
+  }  
+}
+    
+@media only screen and (max-width: 980px) {
+  main {
+    padding: 10% 0 0 0;
+  }
+  .price-container {
+    width: 90%;
+    margin: auto;
+  }
+  .price-table{
+    width: 100%;
+    padding: 10px 20px;
+
+  }
+  .grid-container{
+    grid-gap: 20px 0;
+  }
+/*Toggle*/
+  .collapsible{
+    display: inline-block;
+  }
+
+  #wrapper {
+    overflow: hidden;
+    transition: max-height 300ms;
+    max-height: 0; /* <---hide by default */
+  }
+  #wrapper.open {
+    max-height: 1000px; /* <---when open, allow content to expand to take up as much height as it needs, up to e.g. 100px */
+  }
+
+  #wrapper-premium {
+    overflow: hidden;
+    transition: max-height 300ms;
+    max-height: 0; /* <---hide by default */
+  }
+  #wrapper-premium.open {
+    max-height: 1000px; /* <---when open, allow content to expand to take up as much height as it needs, up to e.g. 100px */
+  }
+
+  #wrapper-bussiness {
+    overflow: hidden;
+    transition: max-height 300ms;
+    max-height: 0; /* <---hide by default */
+  }
+  #wrapper-bussiness.open {
+    max-height: 1000px; /* <---when open, allow content to expand to take up as much height as it needs, up to e.g. 100px */
+  }
+}
+
+@media only screen and (max-width: 730px) {  
+  main {
+    padding: 15% 0 0 0;
+  }
+
+  .pill-button {
+    text-align: left;
+    display: inline-block;
+    width: 100%;
+  }      
+}
+@media only screen and (min-width: 730px) {
+  .header{
+    & li {
+        float: left;
+      }
+      & li a {
+        padding: 20px 30px;
+      }
+      & li button {
+        padding: 20px 30px;      
+      }
+      & .menu {
+        clear: none;
+        float: right;
+        max-height: none;
+      }
+      & .menu-icon {
+        display: none;
+      }
+  } 
+}
